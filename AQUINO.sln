@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQUINO", "AQUINO\AQUINO.csproj", "{B93626D2-CAA7-4925-AAB1-C0BB8B826FE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B93626D2-CAA7-4925-AAB1-C0BB8B826FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B93626D2-CAA7-4925-AAB1-C0BB8B826FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B93626D2-CAA7-4925-AAB1-C0BB8B826FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B93626D2-CAA7-4925-AAB1-C0BB8B826FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72ACE8F4-B262-463D-BE21-D7CF34B75529}
+	EndGlobalSection
+EndGlobal
