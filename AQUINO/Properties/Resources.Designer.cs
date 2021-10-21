@@ -63,6 +63,36 @@ namespace AQUINO.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aquino {
+            get {
+                object obj = ResourceManager.GetObject("aquino", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aquino__1_ {
+            get {
+                object obj = ResourceManager.GetObject("aquino (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap aquino__1044_x_602_px_ {
+            get {
+                object obj = ResourceManager.GetObject("aquino (1044 x 602 px)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aquino__2_ {
             get {
                 object obj = ResourceManager.GetObject("aquino (2)", resourceCulture);
@@ -83,9 +113,39 @@ namespace AQUINO.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap jnvb {
+            get {
+                object obj = ResourceManager.GetObject("jnvb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap oie_1418388mZ1nE9zG {
             get {
                 object obj = ResourceManager.GetObject("oie_1418388mZ1nE9zG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_computer_printer_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-computer-printer@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_arrows_synchronize_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-arrows-synchronize@48x48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +163,69 @@ namespace AQUINO.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_user_check_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-user-check@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_user_check_48x481 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-user-check@48x481", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_user_delete_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-user-delete@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_user_edit_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-user-edit@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap streamline_icon_interface_user_single_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("streamline-icon-interface-user-single@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap streamline_icon_money_graph_bar_48x48 {
             get {
                 object obj = ResourceManager.GetObject("streamline-icon-money-graph-bar@48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap userlmn_39be6e0d46fed8da67e3446ebc7e997c {
+            get {
+                object obj = ResourceManager.GetObject("userlmn_39be6e0d46fed8da67e3446ebc7e997c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,17 +61,76 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBAQUINODataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBAQUINODataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FormMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormBuscar.Designer.cs">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormCadastrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormCadastrar.Designer.cs">
+      <DependentUpon>FormCadastrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormCamisetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormCamisetas.Designer.cs">
+      <DependentUpon>FormCamisetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormDeclaracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormDeclaracao.Designer.cs">
+      <DependentUpon>FormDeclaracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormFinanceiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormFinanceiro.Designer.cs">
+      <DependentUpon>FormFinanceiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormRenovacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormRenovacao.Designer.cs">
+      <DependentUpon>FormRenovacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThemeColor.cs" />
     <EmbeddedResource Include="FormMainMenu.resx">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormBuscar.resx">
+      <DependentUpon>FormBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormCadastrar.resx">
+      <DependentUpon>FormCadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormCamisetas.resx">
+      <DependentUpon>FormCamisetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormDeclaracao.resx">
+      <DependentUpon>FormDeclaracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormFinanceiro.resx">
+      <DependentUpon>FormFinanceiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormRenovacao.resx">
+      <DependentUpon>FormRenovacao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -68,6 +142,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="DBAQUINODataSet.xsc">
+      <DependentUpon>DBAQUINODataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBAQUINODataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DBAQUINODataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBAQUINODataSet.xss">
+      <DependentUpon>DBAQUINODataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,6 +198,41 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\aquinoLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\streamline-icon-interface-user-single%4048x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBAQUINO.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DBAQUINO_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DBAQUINO.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\aquino %281044 x 602 px%29.png" />
+    <None Include="Resources\aquino %281%29.png" />
+    <None Include="Resources\aquino.png" />
+    <None Include="Resources\streamline-icon-interface-arrows-synchronize%4048x48.png" />
+    <None Include="Resources\userlmn_39be6e0d46fed8da67e3446ebc7e997c.png" />
+    <None Include="Resources\streamline-icon-interface-user-delete%4048x48.png" />
+    <None Include="Resources\streamline-icon-interface-user-check%4048x481.png" />
+    <None Include="Resources\jnvb.png" />
+    <None Include="Resources\streamline-icon-computer-printer%4048x48.png" />
+    <None Include="Resources\streamline-icon-interface-user-check%4048x48.png" />
+    <None Include="Resources\streamline-icon-interface-user-edit%4048x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

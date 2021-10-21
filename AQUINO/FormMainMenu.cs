@@ -16,6 +16,7 @@ namespace AQUINO
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
 
         //Construtor
         public FormMainMenu()
@@ -73,34 +74,65 @@ namespace AQUINO
 
         }
 
+        //Método que abre os formulários no container
+        private void OpenChildForm(Form childForm, object btnSender) 
+        {
+            if (activeForm != null) 
+            {
+                activeForm.Close();
+            }
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPanel.Controls.Add(childForm);
+            this.panelDesktopPanel.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            //Exibe devido título
+            lblTitulo.Text = childForm.Text;
+
+        }
+
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Formularios.FormBuscar(), sender);
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Formularios.FormCadastrar(), sender);
         }
 
         private void btnDeclaração_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Formularios.FormDeclaracao(), sender);
         }
 
         private void btnFinanceiro_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Formularios.FormFinanceiro(), sender);
         }
 
         private void btnCamisetas_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Formularios.FormCamisetas(), sender);
+        }
+
+        private void btnRenovacao_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Formularios.FormRenovacao(), sender);
+        }
+
+        private void FormMainMenu_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+          
         }
     }
 }
