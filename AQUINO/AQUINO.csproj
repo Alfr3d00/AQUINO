@@ -210,6 +210,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DBAQUINO.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\userlmn_f31484bd01e51dc6931e4caaf4dfdecf1.png" />
+    <None Include="Resources\userlmn_f31484bd01e51dc6931e4caaf4dfdecf.png" />
     <None Include="Resources\aquino %281044 x 602 px%29.png" />
     <None Include="Resources\aquino %281%29.png" />
     <None Include="Resources\aquino.png" />

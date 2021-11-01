@@ -15,11 +15,26 @@ namespace AQUINO.Formularios
         public FormRenovacao()
         {
             InitializeComponent();
+            
+        }
+
+        private void LoadTheme()
+        {
+            foreach (Control btns in this.Controls)
+            {
+                if (btns.GetType() == typeof(Button))
+                {
+                    Button btn = (Button)btns;
+                    btns.BackColor = ThemeColor.PrimaryColor;
+                    btns.ForeColor = Color.White;
+                    btn.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
+                }
+            }
         }
 
         private void FormRenovacao_Load(object sender, EventArgs e)
         {
-
+            LoadTheme();
         }
     }
 }

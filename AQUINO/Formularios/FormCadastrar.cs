@@ -15,6 +15,26 @@ namespace AQUINO.Formularios
         public FormCadastrar()
         {
             InitializeComponent();
+    
+        }
+
+        private void FormCadastrar_Load(object sender, EventArgs e)
+        {
+            LoadTheme();
+        }
+
+        private void LoadTheme()
+        {
+            foreach (Control btns in this.Controls)
+            {
+                if (btns.GetType() == typeof(Button))
+                {
+                    Button btn = (Button)btns;
+                    btns.BackColor = ThemeColor.PrimaryColor;
+                    btns.ForeColor = Color.White;
+                    btn.FlatAppearance.BorderColor = ThemeColor.SecondaryColor;
+                }
+            }
         }
     }
 }

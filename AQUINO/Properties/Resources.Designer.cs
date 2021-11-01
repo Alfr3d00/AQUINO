@@ -283,6 +283,26 @@ namespace AQUINO.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap userlmn_f31484bd01e51dc6931e4caaf4dfdecf {
+            get {
+                object obj = ResourceManager.GetObject("userlmn_f31484bd01e51dc6931e4caaf4dfdecf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap userlmn_f31484bd01e51dc6931e4caaf4dfdecf1 {
+            get {
+                object obj = ResourceManager.GetObject("userlmn_f31484bd01e51dc6931e4caaf4dfdecf1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap userlmn_fbc47a304c77cfd8d6c6aa255293654e {
             get {
                 object obj = ResourceManager.GetObject("userlmn_fbc47a304c77cfd8d6c6aa255293654e", resourceCulture);

@@ -166,6 +166,9 @@
   <data name="streamline-icon-interface-user-check@48x481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\streamline-icon-interface-user-check@48x481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="userlmn_8329a1413b27399e16a6ab0d433b02ea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userlmn_8329a1413b27399e16a6ab0d433b02ea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="streamline-icon-interface-arrows-synchronize@48x48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\streamline-icon-interface-arrows-synchronize@48x48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,8 +178,11 @@
   <data name="aquino (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aquino (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="userlmn_8329a1413b27399e16a6ab0d433b02ea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\userlmn_8329a1413b27399e16a6ab0d433b02ea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="userlmn_f31484bd01e51dc6931e4caaf4dfdecf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userlmn_f31484bd01e51dc6931e4caaf4dfdecf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aquino (1044 x 602 px)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aquino (1044 x 602 px).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jnvb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jnvb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +190,7 @@
   <data name="oie_1418388mZ1nE9zG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\oie_1418388mZ1nE9zG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aquino (1044 x 602 px)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aquino (1044 x 602 px).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="userlmn_f31484bd01e51dc6931e4caaf4dfdecf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\userlmn_f31484bd01e51dc6931e4caaf4dfdecf1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

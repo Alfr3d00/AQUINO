@@ -36,6 +36,7 @@ namespace AQUINO
             this.lblTitulo = new System.Windows.Forms.Label();
             this.panelDesktopPanel = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCloseChildForm = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnRenovacao = new System.Windows.Forms.Button();
             this.btnCamisetas = new System.Windows.Forms.Button();
@@ -83,6 +84,7 @@ namespace AQUINO
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(185)))), ((int)(((byte)(177)))));
+            this.panelTitleBar.Controls.Add(this.btnCloseChildForm);
             this.panelTitleBar.Controls.Add(this.lblTitulo);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitleBar.Location = new System.Drawing.Point(220, 0);
@@ -121,6 +123,19 @@ namespace AQUINO
             this.pictureBox2.Size = new System.Drawing.Size(1044, 602);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            // 
+            // btnCloseChildForm
+            // 
+            this.btnCloseChildForm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnCloseChildForm.FlatAppearance.BorderSize = 0;
+            this.btnCloseChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseChildForm.Image = global::AQUINO.Properties.Resources.userlmn_f31484bd01e51dc6931e4caaf4dfdecf1;
+            this.btnCloseChildForm.Location = new System.Drawing.Point(0, 0);
+            this.btnCloseChildForm.Name = "btnCloseChildForm";
+            this.btnCloseChildForm.Size = new System.Drawing.Size(75, 80);
+            this.btnCloseChildForm.TabIndex = 1;
+            this.btnCloseChildForm.UseVisualStyleBackColor = true;
+            this.btnCloseChildForm.Click += new System.EventHandler(this.btnCloseChildForm_Click);
             // 
             // btnExit
             // 
@@ -311,6 +326,7 @@ namespace AQUINO
         private System.Windows.Forms.Panel panelDesktopPanel;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnCloseChildForm;
     }
 }
 

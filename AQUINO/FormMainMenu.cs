@@ -23,6 +23,7 @@ namespace AQUINO
         {
             InitializeComponent();
             random = new Random();
+            btnCloseChildForm.Visible = false;
         }
 
         //Métodos
@@ -52,6 +53,9 @@ namespace AQUINO
                     currentButton.Font = new System.Drawing.Font("Noto Sans Cond", 14F, System.Drawing.FontStyle.Bold);
                     panelTitleBar.BackColor = color;
                     panelTopMenuLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    ThemeColor.PrimaryColor = color;
+                    ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    btnCloseChildForm.Visible = true;
                 }
             }
         }
@@ -133,6 +137,24 @@ namespace AQUINO
         private void btnExit_Click(object sender, EventArgs e)
         {
           
+        }
+
+        private void btnCloseChildForm_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null)     
+                activeForm.Close();
+            Reset();
+            
+        }
+
+        private void Reset()
+        {
+            DisableButton();
+            lblTitulo.Text = "Menu Principal";
+            panelTitleBar.BackColor = Color.FromArgb(15, 185, 177);
+            panelTopMenuLogo.BackColor = Color.FromArgb(14, 92, 127);
+            currentButton = null;
+            btnCloseChildForm.Visible = false;
         }
     }
 }
